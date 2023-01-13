@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+
+    <data>
+        <record id="party_planner_type_demo_data0" model="party.types">
+            <field name="name">Birthday Party</field>
+        </record>
+        <record id="party_planner_type_demo_data1" model="party.types">
+            <field name="name">Farewell Party</field>
+        </record>
+        <record id="party_planner_type_demo_data2" model="party.types">
+            <field name="name">Anniversary</field>
+        </record>
+        <record id="party_planner_type_demo_data3" model="party.types">
+            <field name="name">Casual Party</field>
+        </record>
+        <record id="party_planner_type_demo_data4" model="party.types">
+            <field name="name">Marriage</field>
+        </record>
+        <record id="party_planner_type_demo_data5" model="party.types">
+            <field name="name">Housewarming</field>
+        </record>
+        <record id="party_planner_type_demo_data6" model="party.types">
+            <field name="name">Surprise Party</field>
+        </record>
+        <record id="party_planner_type_demo_data7" model="party.types">
+            <field name="name">Pool Party</field>
+        </record>
+        <record id="party_planner_type_demo_data8" model="party.types">
+            <field name="name">Graduation Party</field>
+        </record>
+        <record id="party_planner_type_demo_data9" model="party.types">
+            <field name="name">Christmas Party</field>
+        </record>
+        <record id="party_planner_type_demo_data10" model="party.types">
+            <field name="name">Welcome Party</field>
+        </record>
+        <record id="party_planner_type_demo_data11" model="party.types">
+            <field name="name">Bachelor Party</field>
+        </record>
+        <record id="party_planner_type_demo_data12" model="party.types">
+            <field name="name">After Party</field>
+        </record>
+        <record id="party_planner_type_demo_data13" model="party.types">
+            <field name="name">Reception</field>
+        </record>
+    </data>
+
+</odoo>

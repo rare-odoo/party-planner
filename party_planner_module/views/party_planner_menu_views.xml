@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+
+    <menuitem id="party_planner_root_menu" name="Party Planner" action="party_planner_action">
+        <menuitem id="party_planner_first_level_menu1" name="Configuration">
+            <menuitem id="party_planner_first_level_menu1_submenu1" action="party_planner_types_action" name="Party Types" />
+            <menuitem id="party_planner_first_level_menu_submenu2" action="party_planner_tags_action" name="Party Tags"/>
+        </menuitem>
+    </menuitem>
+
+</odoo>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+
+    <!-- defining actions for party types -->
+
+    <record id="party_planner_types_action" model="ir.actions.act_window">
+        <field name="name">Party Type</field>
+        <field name="res_model">party.types</field> 
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- defining tree view for the party types -->
+    <record id="party_planner_types_tree_view" model="ir.ui.view">
+        <field name="name">party_planner_types_tree_mode</field>
+        <field name="model">party.types</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+                <field name="description" />
+            </tree>
+        </field>
+    </record>
+
+    <!-- defining form view for the party types -->
+    <record id="party_planner_types_form_view" model="ir.ui.view">
+        <field name="name">party_planner_types_form_mode</field>
+        <field name="model">party.types</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <label for="name" string="Name" />
+                    <h1><field name="name" /></h1>
+                    <notebook>
+                        <page string="Description">
+                            <field name="description" placeholder="Description about the party" />
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+</odoo>

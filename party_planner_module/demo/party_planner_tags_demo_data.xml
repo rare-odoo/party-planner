@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+
+    <data>
+        <record id="party_tags_demo_data" model="party.tags">
+            <field name="name">kids</field>
+        </record>
+
+        <record id="party_tags_demo_data1" model="party.tags">
+            <field name="name">adults</field>
+        </record>
+
+        <record id="party_tags_demo_data2" model="party.tags">
+            <field name="name">mix</field>
+        </record>
+
+        <record id="party_tags_demo_data3" model="party.tags">
+            <field name="name">dry</field>
+        </record>
+
+        <record id="party_tags_demo_data4" model="party.tags">
+            <field name="name">#breakfast</field>
+        </record>
+
+        <record id="party_tags_demo_data5" model="party.tags">
+            <field name="name">#lunch</field>
+        </record>
+
+        <record id="party_tags_demo_data6" model="party.tags">
+            <field name="name">#dinner</field>
+        </record>
+
+        <record id="party_tags_demo_data7" model="party.tags">
+            <field name="name">#dance</field>
+        </record>
+
+        <record id="party_tags_demo_data8" model="party.tags">
+            <field name="name">#disco</field>
+        </record>
+
+        <record id="party_tags_demo_data9" model="party.tags">
+            <field name="name">#fun</field>
+        </record>
+    </data>
+
+</odoo>

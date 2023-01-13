@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_right_party_planner,access_right_party_planner,model_party_planner,,1,1,1,1
+access_right_party_planner_types,access_right_party_planner_types,model_party_types,,1,1,1,1
+access_right_party_planner_tags,access_right_party_planner_tags,model_party_tags,,1,1,1,1
