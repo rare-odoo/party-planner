@@ -19,5 +19,8 @@ class PartyPlanner(models.Model):
     # party plot address - many2one field 
     client_id = fields.Many2one('res.partner', copy=False)
     user_id = fields.Many2one('res.users')
+
+    # city name - many2one field
+    city_id = fields.Many2one('cities.cities')
     des = fields.Text(string="Additional Description")
 

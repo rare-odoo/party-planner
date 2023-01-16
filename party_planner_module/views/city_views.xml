@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<odoo>
+
+    <record id="city_views_action" model="ir.actions.act_window">
+        <field name="name">City List</field>
+        <field name="res_model">cities.cities</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- creating tree view for the city action -->
+    <record id="city_tree_view" model="ir.ui.view">
+        <field name="name">city_tree_view_mode</field>
+        <field name="model">cities.cities</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" string="City Name"/>
+            </tree>
+        </field>
+    </record>
+
+</odoo>

@@ -1,0 +1,1634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<odoo>
+
+    <data>
+        <record id='cities_demo_data0' model='cities.cities'>
+            <field name='name'>Delhi, Delhi</field>
+        </record>
+        
+        <record id='cities_demo_data1' model='cities.cities'>
+            <field name='name'>Mumbai, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data2' model='cities.cities'>
+            <field name='name'>Kolkāta, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data3' model='cities.cities'>
+            <field name='name'>Bangalore, Karnātaka</field>
+        </record>
+        
+        <record id='cities_demo_data4' model='cities.cities'>
+            <field name='name'>Chennai, Tamil Nādu</field>
+        </record>
+        
+        <record id='cities_demo_data5' model='cities.cities'>
+            <field name='name'>Hyderābād, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data6' model='cities.cities'>
+            <field name='name'>Pune, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data7' model='cities.cities'>
+            <field name='name'>Ahmedabad, Gujarāt</field>
+        </record>
+        
+        <record id='cities_demo_data8' model='cities.cities'>
+            <field name='name'>Sūrat, Gujarāt</field>
+        </record>
+        
+        <record id='cities_demo_data9' model='cities.cities'>
+            <field name='name'>Lucknow, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data10' model='cities.cities'>
+            <field name='name'>Jaipur, Rājasthān</field>
+        </record>
+        
+        <record id='cities_demo_data11' model='cities.cities'>
+            <field name='name'>Cawnpore, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data12' model='cities.cities'>
+            <field name='name'>Mirzāpur, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data13' model='cities.cities'>
+            <field name='name'>Nāgpur, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data14' model='cities.cities'>
+            <field name='name'>Ghāziābād, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data15' model='cities.cities'>
+            <field name='name'>Indore, Madhya Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data16' model='cities.cities'>
+            <field name='name'>Vadodara, Gujarāt</field>
+        </record>
+        
+        <record id='cities_demo_data17' model='cities.cities'>
+            <field name='name'>Vishākhapatnam, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data18' model='cities.cities'>
+            <field name='name'>Bhopāl, Madhya Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data19' model='cities.cities'>
+            <field name='name'>Chinchvad, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data20' model='cities.cities'>
+            <field name='name'>Patna, Bihār</field>
+        </record>
+        
+        <record id='cities_demo_data21' model='cities.cities'>
+            <field name='name'>Ludhiāna, Punjab</field>
+        </record>
+        
+        <record id='cities_demo_data22' model='cities.cities'>
+            <field name='name'>Āgra, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data23' model='cities.cities'>
+            <field name='name'>Kalyān, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data24' model='cities.cities'>
+            <field name='name'>Madurai, Tamil Nādu</field>
+        </record>
+        
+        <record id='cities_demo_data25' model='cities.cities'>
+            <field name='name'>Jamshedpur, Jharkhand</field>
+        </record>
+        
+        <record id='cities_demo_data26' model='cities.cities'>
+            <field name='name'>Nāsik, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data27' model='cities.cities'>
+            <field name='name'>Farīdābād, Haryāna</field>
+        </record>
+        
+        <record id='cities_demo_data28' model='cities.cities'>
+            <field name='name'>Aurangābād, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data29' model='cities.cities'>
+            <field name='name'>Rājkot, Gujarāt</field>
+        </record>
+        
+        <record id='cities_demo_data30' model='cities.cities'>
+            <field name='name'>Meerut, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data31' model='cities.cities'>
+            <field name='name'>Jabalpur, Madhya Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data32' model='cities.cities'>
+            <field name='name'>Thāne, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data33' model='cities.cities'>
+            <field name='name'>Dhanbād, Jharkhand</field>
+        </record>
+        
+        <record id='cities_demo_data34' model='cities.cities'>
+            <field name='name'>Allahābād, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data35' model='cities.cities'>
+            <field name='name'>Vārānasi, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data36' model='cities.cities'>
+            <field name='name'>Srīnagar, Jammu and Kashmīr</field>
+        </record>
+        
+        <record id='cities_demo_data37' model='cities.cities'>
+            <field name='name'>Amritsar, Punjab</field>
+        </record>
+        
+        <record id='cities_demo_data38' model='cities.cities'>
+            <field name='name'>Alīgarh, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data39' model='cities.cities'>
+            <field name='name'>Bhiwandi, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data40' model='cities.cities'>
+            <field name='name'>Gwalior, Madhya Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data41' model='cities.cities'>
+            <field name='name'>Bhilai, Chhattīsgarh</field>
+        </record>
+        
+        <record id='cities_demo_data42' model='cities.cities'>
+            <field name='name'>Hāora, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data43' model='cities.cities'>
+            <field name='name'>Rānchi, Jharkhand</field>
+        </record>
+        
+        <record id='cities_demo_data44' model='cities.cities'>
+            <field name='name'>Bezwāda, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data45' model='cities.cities'>
+            <field name='name'>Chandīgarh, Chandīgarh</field>
+        </record>
+        
+        <record id='cities_demo_data46' model='cities.cities'>
+            <field name='name'>Mysore, Karnātaka</field>
+        </record>
+        
+        <record id='cities_demo_data47' model='cities.cities'>
+            <field name='name'>Raipur, Chhattīsgarh</field>
+        </record>
+        
+        <record id='cities_demo_data48' model='cities.cities'>
+            <field name='name'>Kota, Rājasthān</field>
+        </record>
+        
+        <record id='cities_demo_data49' model='cities.cities'>
+            <field name='name'>Bareilly, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data50' model='cities.cities'>
+            <field name='name'>Jodhpur, Rājasthān</field>
+        </record>
+        
+        <record id='cities_demo_data51' model='cities.cities'>
+            <field name='name'>Coimbatore, Tamil Nādu</field>
+        </record>
+        
+        <record id='cities_demo_data52' model='cities.cities'>
+            <field name='name'>Dispur, Assam</field>
+        </record>
+        
+        <record id='cities_demo_data53' model='cities.cities'>
+            <field name='name'>Guwāhāti, Assam</field>
+        </record>
+        
+        <record id='cities_demo_data54' model='cities.cities'>
+            <field name='name'>Solāpur, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data55' model='cities.cities'>
+            <field name='name'>Trichinopoly, Tamil Nādu</field>
+        </record>
+        
+        <record id='cities_demo_data56' model='cities.cities'>
+            <field name='name'>Hubli, Karnātaka</field>
+        </record>
+        
+        <record id='cities_demo_data57' model='cities.cities'>
+            <field name='name'>Jalandhar, Punjab</field>
+        </record>
+        
+        <record id='cities_demo_data58' model='cities.cities'>
+            <field name='name'>Bhubaneshwar, Odisha</field>
+        </record>
+        
+        <record id='cities_demo_data59' model='cities.cities'>
+            <field name='name'>Bhayandar, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data60' model='cities.cities'>
+            <field name='name'>Morādābād, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data61' model='cities.cities'>
+            <field name='name'>Kolhāpur, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data62' model='cities.cities'>
+            <field name='name'>Thiruvananthapuram, Kerala</field>
+        </record>
+        
+        <record id='cities_demo_data63' model='cities.cities'>
+            <field name='name'>Sahāranpur, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data64' model='cities.cities'>
+            <field name='name'>Warangal, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data65' model='cities.cities'>
+            <field name='name'>Salem, Tamil Nādu</field>
+        </record>
+        
+        <record id='cities_demo_data66' model='cities.cities'>
+            <field name='name'>Mālegaon, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data67' model='cities.cities'>
+            <field name='name'>Kochi, Kerala</field>
+        </record>
+        
+        <record id='cities_demo_data68' model='cities.cities'>
+            <field name='name'>Gorakhpur, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data69' model='cities.cities'>
+            <field name='name'>Shimoga, Karnātaka</field>
+        </record>
+        
+        <record id='cities_demo_data70' model='cities.cities'>
+            <field name='name'>Tiruppūr, Tamil Nādu</field>
+        </record>
+        
+        <record id='cities_demo_data71' model='cities.cities'>
+            <field name='name'>Guntūr, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data72' model='cities.cities'>
+            <field name='name'>Raurkela, Odisha</field>
+        </record>
+        
+        <record id='cities_demo_data73' model='cities.cities'>
+            <field name='name'>Mangalore, Karnātaka</field>
+        </record>
+        
+        <record id='cities_demo_data74' model='cities.cities'>
+            <field name='name'>Nānded, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data75' model='cities.cities'>
+            <field name='name'>Cuttack, Odisha</field>
+        </record>
+        
+        <record id='cities_demo_data76' model='cities.cities'>
+            <field name='name'>Chānda, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data77' model='cities.cities'>
+            <field name='name'>Dehra Dūn, Uttarakhand</field>
+        </record>
+        
+        <record id='cities_demo_data78' model='cities.cities'>
+            <field name='name'>Durgāpur, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data79' model='cities.cities'>
+            <field name='name'>Āsansol, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data80' model='cities.cities'>
+            <field name='name'>Bhāvnagar, Gujarāt</field>
+        </record>
+        
+        <record id='cities_demo_data81' model='cities.cities'>
+            <field name='name'>Amrāvati, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data82' model='cities.cities'>
+            <field name='name'>Nellore, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data83' model='cities.cities'>
+            <field name='name'>Ajmer, Rājasthān</field>
+        </record>
+        
+        <record id='cities_demo_data84' model='cities.cities'>
+            <field name='name'>Tinnevelly, Tamil Nādu</field>
+        </record>
+        
+        <record id='cities_demo_data85' model='cities.cities'>
+            <field name='name'>Bīkaner, Rājasthān</field>
+        </record>
+        
+        <record id='cities_demo_data86' model='cities.cities'>
+            <field name='name'>Agartala, Tripura</field>
+        </record>
+        
+        <record id='cities_demo_data87' model='cities.cities'>
+            <field name='name'>Ujjain, Madhya Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data88' model='cities.cities'>
+            <field name='name'>Jhānsi, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data89' model='cities.cities'>
+            <field name='name'>Ulhāsnagar, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data90' model='cities.cities'>
+            <field name='name'>Davangere, Karnātaka</field>
+        </record>
+        
+        <record id='cities_demo_data91' model='cities.cities'>
+            <field name='name'>Jammu, Jammu and Kashmīr</field>
+        </record>
+        
+        <record id='cities_demo_data92' model='cities.cities'>
+            <field name='name'>Belgaum, Karnātaka</field>
+        </record>
+        
+        <record id='cities_demo_data93' model='cities.cities'>
+            <field name='name'>Gulbarga, Karnātaka</field>
+        </record>
+        
+        <record id='cities_demo_data94' model='cities.cities'>
+            <field name='name'>Jāmnagar, Gujarāt</field>
+        </record>
+        
+        <record id='cities_demo_data95' model='cities.cities'>
+            <field name='name'>Dhūlia, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data96' model='cities.cities'>
+            <field name='name'>Gaya, Bihār</field>
+        </record>
+        
+        <record id='cities_demo_data97' model='cities.cities'>
+            <field name='name'>Jalgaon, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data98' model='cities.cities'>
+            <field name='name'>Kurnool, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data99' model='cities.cities'>
+            <field name='name'>Udaipur, Rājasthān</field>
+        </record>
+        
+        <record id='cities_demo_data100' model='cities.cities'>
+            <field name='name'>Bellary, Karnātaka</field>
+        </record>
+        
+        <record id='cities_demo_data101' model='cities.cities'>
+            <field name='name'>Sāngli, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data102' model='cities.cities'>
+            <field name='name'>Tuticorin, Tamil Nādu</field>
+        </record>
+        
+        <record id='cities_demo_data103' model='cities.cities'>
+            <field name='name'>Calicut, Kerala</field>
+        </record>
+        
+        <record id='cities_demo_data104' model='cities.cities'>
+            <field name='name'>Akola, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data105' model='cities.cities'>
+            <field name='name'>Bhāgalpur, Bihār</field>
+        </record>
+        
+        <record id='cities_demo_data106' model='cities.cities'>
+            <field name='name'>Sīkar, Rājasthān</field>
+        </record>
+        
+        <record id='cities_demo_data107' model='cities.cities'>
+            <field name='name'>Tumkūr, Karnātaka</field>
+        </record>
+        
+        <record id='cities_demo_data108' model='cities.cities'>
+            <field name='name'>Quilon, Kerala</field>
+        </record>
+        
+        <record id='cities_demo_data109' model='cities.cities'>
+            <field name='name'>Muzaffarnagar, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data110' model='cities.cities'>
+            <field name='name'>Bhīlwāra, Rājasthān</field>
+        </record>
+        
+        <record id='cities_demo_data111' model='cities.cities'>
+            <field name='name'>Nizāmābād, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data112' model='cities.cities'>
+            <field name='name'>Bhātpāra, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data113' model='cities.cities'>
+            <field name='name'>Kākināda, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data114' model='cities.cities'>
+            <field name='name'>Parbhani, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data115' model='cities.cities'>
+            <field name='name'>Pānihāti, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data116' model='cities.cities'>
+            <field name='name'>Lātūr, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data117' model='cities.cities'>
+            <field name='name'>Rohtak, Haryāna</field>
+        </record>
+        
+        <record id='cities_demo_data118' model='cities.cities'>
+            <field name='name'>Rājapālaiyam, Tamil Nādu</field>
+        </record>
+        
+        <record id='cities_demo_data119' model='cities.cities'>
+            <field name='name'>Ahmadnagar, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data120' model='cities.cities'>
+            <field name='name'>Cuddapah, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data121' model='cities.cities'>
+            <field name='name'>Rājahmundry, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data122' model='cities.cities'>
+            <field name='name'>Alwar, Rājasthān</field>
+        </record>
+        
+        <record id='cities_demo_data123' model='cities.cities'>
+            <field name='name'>Muzaffarpur, Bihār</field>
+        </record>
+        
+        <record id='cities_demo_data124' model='cities.cities'>
+            <field name='name'>Bilāspur, Chhattīsgarh</field>
+        </record>
+        
+        <record id='cities_demo_data125' model='cities.cities'>
+            <field name='name'>Mathura, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data126' model='cities.cities'>
+            <field name='name'>Kāmārhāti, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data127' model='cities.cities'>
+            <field name='name'>Patiāla, Punjab</field>
+        </record>
+        
+        <record id='cities_demo_data128' model='cities.cities'>
+            <field name='name'>Saugor, Madhya Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data129' model='cities.cities'>
+            <field name='name'>Bijāpur, Karnātaka</field>
+        </record>
+        
+        <record id='cities_demo_data130' model='cities.cities'>
+            <field name='name'>Brahmapur, Odisha</field>
+        </record>
+        
+        <record id='cities_demo_data131' model='cities.cities'>
+            <field name='name'>Shāhjānpur, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data132' model='cities.cities'>
+            <field name='name'>Trichūr, Kerala</field>
+        </record>
+        
+        <record id='cities_demo_data133' model='cities.cities'>
+            <field name='name'>Barddhamān, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data134' model='cities.cities'>
+            <field name='name'>Kulti, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data135' model='cities.cities'>
+            <field name='name'>Sambalpur, Odisha</field>
+        </record>
+        
+        <record id='cities_demo_data136' model='cities.cities'>
+            <field name='name'>Purnea, Bihār</field>
+        </record>
+        
+        <record id='cities_demo_data137' model='cities.cities'>
+            <field name='name'>Hisar, Haryāna</field>
+        </record>
+        
+        <record id='cities_demo_data138' model='cities.cities'>
+            <field name='name'>Fīrozābād, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data139' model='cities.cities'>
+            <field name='name'>Bīdar, Karnātaka</field>
+        </record>
+        
+        <record id='cities_demo_data140' model='cities.cities'>
+            <field name='name'>Rāmpur, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data141' model='cities.cities'>
+            <field name='name'>Shiliguri, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data142' model='cities.cities'>
+            <field name='name'>Bāli, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data143' model='cities.cities'>
+            <field name='name'>Pānīpat, Haryāna</field>
+        </record>
+        
+        <record id='cities_demo_data144' model='cities.cities'>
+            <field name='name'>Karīmnagar, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data145' model='cities.cities'>
+            <field name='name'>Bhuj, Gujarāt</field>
+        </record>
+        
+        <record id='cities_demo_data146' model='cities.cities'>
+            <field name='name'>Ichalkaranji, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data147' model='cities.cities'>
+            <field name='name'>Tirupati, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data148' model='cities.cities'>
+            <field name='name'>Hospet, Karnātaka</field>
+        </record>
+        
+        <record id='cities_demo_data149' model='cities.cities'>
+            <field name='name'>Āīzawl, Mizoram</field>
+        </record>
+        
+        <record id='cities_demo_data150' model='cities.cities'>
+            <field name='name'>Sannai, Madhya Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data151' model='cities.cities'>
+            <field name='name'>Bārāsat, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data152' model='cities.cities'>
+            <field name='name'>Ratlām, Madhya Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data153' model='cities.cities'>
+            <field name='name'>Handwāra, Jammu and Kashmīr</field>
+        </record>
+        
+        <record id='cities_demo_data154' model='cities.cities'>
+            <field name='name'>Drug, Chhattīsgarh</field>
+        </record>
+        
+        <record id='cities_demo_data155' model='cities.cities'>
+            <field name='name'>Imphāl, Manipur</field>
+        </record>
+        
+        <record id='cities_demo_data156' model='cities.cities'>
+            <field name='name'>Anantapur, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data157' model='cities.cities'>
+            <field name='name'>Etāwah, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data158' model='cities.cities'>
+            <field name='name'>Rāichūr, Karnātaka</field>
+        </record>
+        
+        <record id='cities_demo_data159' model='cities.cities'>
+            <field name='name'>Ongole, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data160' model='cities.cities'>
+            <field name='name'>Bharatpur, Rājasthān</field>
+        </record>
+        
+        <record id='cities_demo_data161' model='cities.cities'>
+            <field name='name'>Begusarai, Bihār</field>
+        </record>
+        
+        <record id='cities_demo_data162' model='cities.cities'>
+            <field name='name'>Sonīpat, Haryāna</field>
+        </record>
+        
+        <record id='cities_demo_data163' model='cities.cities'>
+            <field name='name'>Rāmgundam, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data164' model='cities.cities'>
+            <field name='name'>Hāpur, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data165' model='cities.cities'>
+            <field name='name'>Uluberiya, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data166' model='cities.cities'>
+            <field name='name'>Porbandar, Gujarāt</field>
+        </record>
+        
+        <record id='cities_demo_data167' model='cities.cities'>
+            <field name='name'>Pāli, Rājasthān</field>
+        </record>
+        
+        <record id='cities_demo_data168' model='cities.cities'>
+            <field name='name'>Vizianagaram, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data169' model='cities.cities'>
+            <field name='name'>Puducherry, Puducherry</field>
+        </record>
+        
+        <record id='cities_demo_data170' model='cities.cities'>
+            <field name='name'>Karnāl, Haryāna</field>
+        </record>
+        
+        <record id='cities_demo_data171' model='cities.cities'>
+            <field name='name'>Nāgercoil, Tamil Nādu</field>
+        </record>
+        
+        <record id='cities_demo_data172' model='cities.cities'>
+            <field name='name'>Tanjore, Tamil Nādu</field>
+        </record>
+        
+        <record id='cities_demo_data173' model='cities.cities'>
+            <field name='name'>Sambhal, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data174' model='cities.cities'>
+            <field name='name'>Naihāti, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data175' model='cities.cities'>
+            <field name='name'>Secunderābād, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data176' model='cities.cities'>
+            <field name='name'>Kharagpur, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data177' model='cities.cities'>
+            <field name='name'>Dindigul, Tamil Nādu</field>
+        </record>
+        
+        <record id='cities_demo_data178' model='cities.cities'>
+            <field name='name'>Shimla, Himāchal Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data179' model='cities.cities'>
+            <field name='name'>Ingrāj Bāzār, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data180' model='cities.cities'>
+            <field name='name'>Ellore, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data181' model='cities.cities'>
+            <field name='name'>Puri, Odisha</field>
+        </record>
+        
+        <record id='cities_demo_data182' model='cities.cities'>
+            <field name='name'>Haldia, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data183' model='cities.cities'>
+            <field name='name'>Nandyāl, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data184' model='cities.cities'>
+            <field name='name'>Bulandshahr, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data185' model='cities.cities'>
+            <field name='name'>Chakradharpur, Jharkhand</field>
+        </record>
+        
+        <record id='cities_demo_data186' model='cities.cities'>
+            <field name='name'>Bhiwāni, Haryāna</field>
+        </record>
+        
+        <record id='cities_demo_data187' model='cities.cities'>
+            <field name='name'>Gurgaon, Haryāna</field>
+        </record>
+        
+        <record id='cities_demo_data188' model='cities.cities'>
+            <field name='name'>Burhānpur, Madhya Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data189' model='cities.cities'>
+            <field name='name'>Khammam, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data190' model='cities.cities'>
+            <field name='name'>Madhyamgram, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data191' model='cities.cities'>
+            <field name='name'>Ghāndīnagar, Gujarāt</field>
+        </record>
+        
+        <record id='cities_demo_data192' model='cities.cities'>
+            <field name='name'>Baharampur, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data193' model='cities.cities'>
+            <field name='name'>Mahbūbnagar, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data194' model='cities.cities'>
+            <field name='name'>Mahesāna, Gujarāt</field>
+        </record>
+        
+        <record id='cities_demo_data195' model='cities.cities'>
+            <field name='name'>Ādoni, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data196' model='cities.cities'>
+            <field name='name'>Rāiganj, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data197' model='cities.cities'>
+            <field name='name'>Bhusāval, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data198' model='cities.cities'>
+            <field name='name'>Bahraigh, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data199' model='cities.cities'>
+            <field name='name'>Shrīrāmpur, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data200' model='cities.cities'>
+            <field name='name'>Tonk, Rājasthān</field>
+        </record>
+        
+        <record id='cities_demo_data201' model='cities.cities'>
+            <field name='name'>Sirsa, Haryāna</field>
+        </record>
+        
+        <record id='cities_demo_data202' model='cities.cities'>
+            <field name='name'>Jaunpur, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data203' model='cities.cities'>
+            <field name='name'>Madanapalle, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data204' model='cities.cities'>
+            <field name='name'>Hugli, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data205' model='cities.cities'>
+            <field name='name'>Vellore, Tamil Nādu</field>
+        </record>
+        
+        <record id='cities_demo_data206' model='cities.cities'>
+            <field name='name'>Alleppey, Kerala</field>
+        </record>
+        
+        <record id='cities_demo_data207' model='cities.cities'>
+            <field name='name'>Cuddalore, Tamil Nādu</field>
+        </record>
+        
+        <record id='cities_demo_data208' model='cities.cities'>
+            <field name='name'>Deo, Bihār</field>
+        </record>
+        
+        <record id='cities_demo_data209' model='cities.cities'>
+            <field name='name'>Chīrāla, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data210' model='cities.cities'>
+            <field name='name'>Machilīpatnam, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data211' model='cities.cities'>
+            <field name='name'>Medinīpur, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data212' model='cities.cities'>
+            <field name='name'>Bāramūla, Jammu and Kashmīr</field>
+        </record>
+        
+        <record id='cities_demo_data213' model='cities.cities'>
+            <field name='name'>Chandannagar, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data214' model='cities.cities'>
+            <field name='name'>Fatehpur, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data215' model='cities.cities'>
+            <field name='name'>Udipi, Karnātaka</field>
+        </record>
+        
+        <record id='cities_demo_data216' model='cities.cities'>
+            <field name='name'>Tenāli, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data217' model='cities.cities'>
+            <field name='name'>Sitalpur, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data218' model='cities.cities'>
+            <field name='name'>Conjeeveram, Tamil Nādu</field>
+        </record>
+        
+        <record id='cities_demo_data219' model='cities.cities'>
+            <field name='name'>Proddatūr, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data220' model='cities.cities'>
+            <field name='name'>Navsāri, Gujarāt</field>
+        </record>
+        
+        <record id='cities_demo_data221' model='cities.cities'>
+            <field name='name'>Godhra, Gujarāt</field>
+        </record>
+        
+        <record id='cities_demo_data222' model='cities.cities'>
+            <field name='name'>Budaun, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data223' model='cities.cities'>
+            <field name='name'>Chittoor, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data224' model='cities.cities'>
+            <field name='name'>Harīpur, Punjab</field>
+        </record>
+        
+        <record id='cities_demo_data225' model='cities.cities'>
+            <field name='name'>Saharsa, Bihār</field>
+        </record>
+        
+        <record id='cities_demo_data226' model='cities.cities'>
+            <field name='name'>Vidisha, Madhya Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data227' model='cities.cities'>
+            <field name='name'>Pathānkot, Punjab</field>
+        </record>
+        
+        <record id='cities_demo_data228' model='cities.cities'>
+            <field name='name'>Nalgonda, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data229' model='cities.cities'>
+            <field name='name'>Dibrugarh, Assam</field>
+        </record>
+        
+        <record id='cities_demo_data230' model='cities.cities'>
+            <field name='name'>Bālurghāt, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data231' model='cities.cities'>
+            <field name='name'>Krishnanagar, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data232' model='cities.cities'>
+            <field name='name'>Fyzābād, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data233' model='cities.cities'>
+            <field name='name'>Silchar, Assam</field>
+        </record>
+        
+        <record id='cities_demo_data234' model='cities.cities'>
+            <field name='name'>Shāntipur, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data235' model='cities.cities'>
+            <field name='name'>Hindupur, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data236' model='cities.cities'>
+            <field name='name'>Erode, Tamil Nādu</field>
+        </record>
+        
+        <record id='cities_demo_data237' model='cities.cities'>
+            <field name='name'>Jāmuria, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data238' model='cities.cities'>
+            <field name='name'>Hābra, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data239' model='cities.cities'>
+            <field name='name'>Ambāla, Haryāna</field>
+        </record>
+        
+        <record id='cities_demo_data240' model='cities.cities'>
+            <field name='name'>Mauli, Punjab</field>
+        </record>
+        
+        <record id='cities_demo_data241' model='cities.cities'>
+            <field name='name'>Kolār, Karnātaka</field>
+        </record>
+        
+        <record id='cities_demo_data242' model='cities.cities'>
+            <field name='name'>Shillong, Meghālaya</field>
+        </record>
+        
+        <record id='cities_demo_data243' model='cities.cities'>
+            <field name='name'>Bhīmavaram, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data244' model='cities.cities'>
+            <field name='name'>New Delhi, Delhi</field>
+        </record>
+        
+        <record id='cities_demo_data245' model='cities.cities'>
+            <field name='name'>Mandsaur, Madhya Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data246' model='cities.cities'>
+            <field name='name'>Kumbakonam, Tamil Nādu</field>
+        </record>
+        
+        <record id='cities_demo_data247' model='cities.cities'>
+            <field name='name'>Tiruvannāmalai, Tamil Nādu</field>
+        </record>
+        
+        <record id='cities_demo_data248' model='cities.cities'>
+            <field name='name'>Chicacole, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data249' model='cities.cities'>
+            <field name='name'>Bānkura, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data250' model='cities.cities'>
+            <field name='name'>Mandya, Karnātaka</field>
+        </record>
+        
+        <record id='cities_demo_data251' model='cities.cities'>
+            <field name='name'>Hassan, Karnātaka</field>
+        </record>
+        
+        <record id='cities_demo_data252' model='cities.cities'>
+            <field name='name'>Yavatmāl, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data253' model='cities.cities'>
+            <field name='name'>Pīlibhīt, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data254' model='cities.cities'>
+            <field name='name'>Pālghāt, Kerala</field>
+        </record>
+        
+        <record id='cities_demo_data255' model='cities.cities'>
+            <field name='name'>Abohar, Punjab</field>
+        </record>
+        
+        <record id='cities_demo_data256' model='cities.cities'>
+            <field name='name'>Pālakollu, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data257' model='cities.cities'>
+            <field name='name'>Kānchrāpāra, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data258' model='cities.cities'>
+            <field name='name'>Port Blair, Andaman and Nicobar Islands</field>
+        </record>
+        
+        <record id='cities_demo_data259' model='cities.cities'>
+            <field name='name'>Alīpur Duār, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data260' model='cities.cities'>
+            <field name='name'>Hāthras, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data261' model='cities.cities'>
+            <field name='name'>Guntakal, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data262' model='cities.cities'>
+            <field name='name'>Navadwīp, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data263' model='cities.cities'>
+            <field name='name'>Basīrhat, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data264' model='cities.cities'>
+            <field name='name'>Hālīsahar, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data265' model='cities.cities'>
+            <field name='name'>Rishra, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data266' model='cities.cities'>
+            <field name='name'>Dharmavaram, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data267' model='cities.cities'>
+            <field name='name'>Baidyabāti, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data268' model='cities.cities'>
+            <field name='name'>Darjeeling, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data269' model='cities.cities'>
+            <field name='name'>Sopur, Jammu and Kashmīr</field>
+        </record>
+        
+        <record id='cities_demo_data270' model='cities.cities'>
+            <field name='name'>Gudivāda, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data271' model='cities.cities'>
+            <field name='name'>Adilābād, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data272' model='cities.cities'>
+            <field name='name'>Titāgarh, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data273' model='cities.cities'>
+            <field name='name'>Chittaurgarh, Rājasthān</field>
+        </record>
+        
+        <record id='cities_demo_data274' model='cities.cities'>
+            <field name='name'>Narasaraopet, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data275' model='cities.cities'>
+            <field name='name'>Dam Dam, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data276' model='cities.cities'>
+            <field name='name'>Vālpārai, Tamil Nādu</field>
+        </record>
+        
+        <record id='cities_demo_data277' model='cities.cities'>
+            <field name='name'>Osmānābād, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data278' model='cities.cities'>
+            <field name='name'>Champdani, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data279' model='cities.cities'>
+            <field name='name'>Bangaon, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data280' model='cities.cities'>
+            <field name='name'>Khardah, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data281' model='cities.cities'>
+            <field name='name'>Tādpatri, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data282' model='cities.cities'>
+            <field name='name'>Jalpāiguri, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data283' model='cities.cities'>
+            <field name='name'>Suriāpet, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data284' model='cities.cities'>
+            <field name='name'>Tādepallegūdem, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data285' model='cities.cities'>
+            <field name='name'>Bānsbāria, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data286' model='cities.cities'>
+            <field name='name'>Negapatam, Tamil Nādu</field>
+        </record>
+        
+        <record id='cities_demo_data287' model='cities.cities'>
+            <field name='name'>Bhadreswar, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data288' model='cities.cities'>
+            <field name='name'>Chilakalūrupet, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data289' model='cities.cities'>
+            <field name='name'>Kalyani, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data290' model='cities.cities'>
+            <field name='name'>Gangtok, Sikkim</field>
+        </record>
+        
+        <record id='cities_demo_data291' model='cities.cities'>
+            <field name='name'>Kohīma, Nāgāland</field>
+        </record>
+        
+        <record id='cities_demo_data292' model='cities.cities'>
+            <field name='name'>Khambhāt, Gujarāt</field>
+        </record>
+        
+        <record id='cities_demo_data293' model='cities.cities'>
+            <field name='name'>Aurangābād, Bihār</field>
+        </record>
+        
+        <record id='cities_demo_data294' model='cities.cities'>
+            <field name='name'>Emmiganūr, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data295' model='cities.cities'>
+            <field name='name'>Rāyachoti, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data296' model='cities.cities'>
+            <field name='name'>Kāvali, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data297' model='cities.cities'>
+            <field name='name'>Mancherāl, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data298' model='cities.cities'>
+            <field name='name'>Kadiri, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data299' model='cities.cities'>
+            <field name='name'>Ootacamund, Tamil Nādu</field>
+        </record>
+        
+        <record id='cities_demo_data300' model='cities.cities'>
+            <field name='name'>Anakāpalle, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data301' model='cities.cities'>
+            <field name='name'>Sirsilla, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data302' model='cities.cities'>
+            <field name='name'>Kāmāreddipet, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data303' model='cities.cities'>
+            <field name='name'>Pāloncha, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data304' model='cities.cities'>
+            <field name='name'>Kottagūdem, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data305' model='cities.cities'>
+            <field name='name'>Tanuku, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data306' model='cities.cities'>
+            <field name='name'>Bodhan, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data307' model='cities.cities'>
+            <field name='name'>Karūr, Tamil Nādu</field>
+        </record>
+        
+        <record id='cities_demo_data308' model='cities.cities'>
+            <field name='name'>Mangalagiri, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data309' model='cities.cities'>
+            <field name='name'>Kairāna, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data310' model='cities.cities'>
+            <field name='name'>Mārkāpur, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data311' model='cities.cities'>
+            <field name='name'>Malaut, Punjab</field>
+        </record>
+        
+        <record id='cities_demo_data312' model='cities.cities'>
+            <field name='name'>Bāpatla, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data313' model='cities.cities'>
+            <field name='name'>Badvel, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data314' model='cities.cities'>
+            <field name='name'>Jorhāt, Assam</field>
+        </record>
+        
+        <record id='cities_demo_data315' model='cities.cities'>
+            <field name='name'>Koratla, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data316' model='cities.cities'>
+            <field name='name'>Pulivendla, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data317' model='cities.cities'>
+            <field name='name'>Jaisalmer, Rājasthān</field>
+        </record>
+        
+        <record id='cities_demo_data318' model='cities.cities'>
+            <field name='name'>Tādepalle, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data319' model='cities.cities'>
+            <field name='name'>Armūr, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data320' model='cities.cities'>
+            <field name='name'>Jatani, Odisha</field>
+        </record>
+        
+        <record id='cities_demo_data321' model='cities.cities'>
+            <field name='name'>Gadwāl, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data322' model='cities.cities'>
+            <field name='name'>Nagari, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data323' model='cities.cities'>
+            <field name='name'>Wanparti, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data324' model='cities.cities'>
+            <field name='name'>Ponnūru, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data325' model='cities.cities'>
+            <field name='name'>Vinukonda, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data326' model='cities.cities'>
+            <field name='name'>Itānagar, Arunāchal Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data327' model='cities.cities'>
+            <field name='name'>Tezpur, Assam</field>
+        </record>
+        
+        <record id='cities_demo_data328' model='cities.cities'>
+            <field name='name'>Narasapur, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data329' model='cities.cities'>
+            <field name='name'>Kothāpet, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data330' model='cities.cities'>
+            <field name='name'>Mācherla, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data331' model='cities.cities'>
+            <field name='name'>Kandukūr, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data332' model='cities.cities'>
+            <field name='name'>Sāmalkot, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data333' model='cities.cities'>
+            <field name='name'>Bobbili, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data334' model='cities.cities'>
+            <field name='name'>Sattenapalle, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data335' model='cities.cities'>
+            <field name='name'>Vrindāvan, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data336' model='cities.cities'>
+            <field name='name'>Mandapeta, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data337' model='cities.cities'>
+            <field name='name'>Belampalli, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data338' model='cities.cities'>
+            <field name='name'>Bhīmunipatnam, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data339' model='cities.cities'>
+            <field name='name'>Nāndod, Gujarāt</field>
+        </record>
+        
+        <record id='cities_demo_data340' model='cities.cities'>
+            <field name='name'>Pithāpuram, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data341' model='cities.cities'>
+            <field name='name'>Punganūru, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data342' model='cities.cities'>
+            <field name='name'>Puttūr, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data343' model='cities.cities'>
+            <field name='name'>Jalor, Rājasthān</field>
+        </record>
+        
+        <record id='cities_demo_data344' model='cities.cities'>
+            <field name='name'>Palmaner, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data345' model='cities.cities'>
+            <field name='name'>Dholka, Gujarāt</field>
+        </record>
+        
+        <record id='cities_demo_data346' model='cities.cities'>
+            <field name='name'>Jaggayyapeta, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data347' model='cities.cities'>
+            <field name='name'>Tuni, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data348' model='cities.cities'>
+            <field name='name'>Amalāpuram, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data349' model='cities.cities'>
+            <field name='name'>Jagtiāl, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data350' model='cities.cities'>
+            <field name='name'>Vikārābād, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data351' model='cities.cities'>
+            <field name='name'>Venkatagiri, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data352' model='cities.cities'>
+            <field name='name'>Sihor, Gujarāt</field>
+        </record>
+        
+        <record id='cities_demo_data353' model='cities.cities'>
+            <field name='name'>Jangaon, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data354' model='cities.cities'>
+            <field name='name'>Mandamāri, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data355' model='cities.cities'>
+            <field name='name'>Metpalli, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data356' model='cities.cities'>
+            <field name='name'>Repalle, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data357' model='cities.cities'>
+            <field name='name'>Bhainsa, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data358' model='cities.cities'>
+            <field name='name'>Jasdan, Gujarāt</field>
+        </record>
+        
+        <record id='cities_demo_data359' model='cities.cities'>
+            <field name='name'>Jammalamadugu, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data360' model='cities.cities'>
+            <field name='name'>Rāmeswaram, Tamil Nādu</field>
+        </record>
+        
+        <record id='cities_demo_data361' model='cities.cities'>
+            <field name='name'>Addanki, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data362' model='cities.cities'>
+            <field name='name'>Nidadavole, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data363' model='cities.cities'>
+            <field name='name'>Bodupāl, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data364' model='cities.cities'>
+            <field name='name'>Rājgīr, Bihār</field>
+        </record>
+        
+        <record id='cities_demo_data365' model='cities.cities'>
+            <field name='name'>Rajaori, Jammu and Kashmīr</field>
+        </record>
+        
+        <record id='cities_demo_data366' model='cities.cities'>
+            <field name='name'>Naini Tal, Uttarakhand</field>
+        </record>
+        
+        <record id='cities_demo_data367' model='cities.cities'>
+            <field name='name'>Channarāyapatna, Karnātaka</field>
+        </record>
+        
+        <record id='cities_demo_data368' model='cities.cities'>
+            <field name='name'>Maihar, Madhya Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data369' model='cities.cities'>
+            <field name='name'>Panaji, Goa</field>
+        </record>
+        
+        <record id='cities_demo_data370' model='cities.cities'>
+            <field name='name'>Junnar, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data371' model='cities.cities'>
+            <field name='name'>Amudālavalasa, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data372' model='cities.cities'>
+            <field name='name'>Damān, Gujarāt</field>
+        </record>
+        
+        <record id='cities_demo_data373' model='cities.cities'>
+            <field name='name'>Kovvūr, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data374' model='cities.cities'>
+            <field name='name'>Solan, Himāchal Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data375' model='cities.cities'>
+            <field name='name'>Dwārka, Gujarāt</field>
+        </record>
+        
+        <record id='cities_demo_data376' model='cities.cities'>
+            <field name='name'>Pathanāmthitta, Kerala</field>
+        </record>
+        
+        <record id='cities_demo_data377' model='cities.cities'>
+            <field name='name'>Kodaikānal, Tamil Nādu</field>
+        </record>
+        
+        <record id='cities_demo_data378' model='cities.cities'>
+            <field name='name'>Udhampur, Jammu and Kashmīr</field>
+        </record>
+        
+        <record id='cities_demo_data379' model='cities.cities'>
+            <field name='name'>Giddalūr, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data380' model='cities.cities'>
+            <field name='name'>Yellandu, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data381' model='cities.cities'>
+            <field name='name'>Shrīrangapattana, Karnātaka</field>
+        </record>
+        
+        <record id='cities_demo_data382' model='cities.cities'>
+            <field name='name'>Angamāli, Kerala</field>
+        </record>
+        
+        <record id='cities_demo_data383' model='cities.cities'>
+            <field name='name'>Umaria, Madhya Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data384' model='cities.cities'>
+            <field name='name'>Fatehpur Sīkri, Uttar Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data385' model='cities.cities'>
+            <field name='name'>Mangūr, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data386' model='cities.cities'>
+            <field name='name'>Pedana, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data387' model='cities.cities'>
+            <field name='name'>Uran, Mahārāshtra</field>
+        </record>
+        
+        <record id='cities_demo_data388' model='cities.cities'>
+            <field name='name'>Chimākurti, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data389' model='cities.cities'>
+            <field name='name'>Devarkonda, Telangana</field>
+        </record>
+        
+        <record id='cities_demo_data390' model='cities.cities'>
+            <field name='name'>Bandipura, Jammu and Kashmīr</field>
+        </record>
+        
+        <record id='cities_demo_data391' model='cities.cities'>
+            <field name='name'>Silvassa, Dādra and Nagar Haveli</field>
+        </record>
+        
+        <record id='cities_demo_data392' model='cities.cities'>
+            <field name='name'>Pāmidi, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data393' model='cities.cities'>
+            <field name='name'>Narasannapeta, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data394' model='cities.cities'>
+            <field name='name'>Jaynagar-Majilpur, West Bengal</field>
+        </record>
+        
+        <record id='cities_demo_data395' model='cities.cities'>
+            <field name='name'>Khed Brahma, Gujarāt</field>
+        </record>
+        
+        <record id='cities_demo_data396' model='cities.cities'>
+            <field name='name'>Khajurāho, Madhya Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data397' model='cities.cities'>
+            <field name='name'>Koilkuntla, Andhra Pradesh</field>
+        </record>
+        
+        <record id='cities_demo_data398' model='cities.cities'>
+            <field name='name'>Diu, Damān and Diu</field>
+        </record>
+        
+        <record id='cities_demo_data399' model='cities.cities'>
+            <field name='name'>Kulgam, Jammu and Kashmīr</field>
+        </record>
+        
+        <record id='cities_demo_data400' model='cities.cities'>
+            <field name='name'>Gauripur, Assam</field>
+        </record>
+        
+        <record id='cities_demo_data401' model='cities.cities'>
+            <field name='name'>Abu, Rājasthān</field>
+        </record>
+        
+        <record id='cities_demo_data402' model='cities.cities'>
+            <field name='name'>Curchorem, Goa</field>
+        </record>
+        
+        <record id='cities_demo_data403' model='cities.cities'>
+            <field name='name'>Kavaratti, Lakshadweep</field>
+        </record>
+        
+        <record id='cities_demo_data404' model='cities.cities'>
+            <field name='name'>Panchkula, Haryāna</field>
+        </record>
+        
+        <record id='cities_demo_data405' model='cities.cities'>
+            <field name='name'>Kagaznāgār, Telangana</field>
+        </record>
+        
+        
+    </data>
+
+</odoo>

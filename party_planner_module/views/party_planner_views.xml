@@ -20,6 +20,7 @@
                 <field name="name" string="Title"/>
                 <field name="type_id" string="Party Type" />
                 <field name="tag_ids" string="Party Tags" widget="many2many_tags"/>
+                <field name="city_id" string="City" />
                 <field name="date"/>
             </tree>
         </field>
@@ -48,6 +49,7 @@
                     </group>
                     <group>
                         <group><field name="attendees" /></group>
+                        <group><field name="city_id" /></group>
                     </group>
 
                     <notebook>
