@@ -5,7 +5,7 @@
 <odoo>
 
     <record id="party_planner_action" model="ir.actions.act_window">
-        <field name="name">Parties</field>
+        <field name="name">Parties On The List</field>
         <field name="res_model">party.planner</field>
         <field name="view_mode">tree,form</field>
     </record>
@@ -19,7 +19,8 @@
             <tree>
                 <field name="name" string="Title"/>
                 <field name="type_id" string="Party Type" />
-                <field name="tag_ids" string="Party Tags" widget="many2many_tags"/>
+                <field name="tag_ids" string="Party Tags" widget="many2many_tags" options="{'color_field':'color'}"/>
+                <field name="place_id" string="Party Place"/>
                 <field name="city_id" string="City" />
                 <field name="date"/>
             </tree>
@@ -37,7 +38,7 @@
                     <label for="name" string="Name" />
                     <h1><field name="name" placeholder="For Say : Isha's Birthday Party"/></h1>
                     <label for="name" string="Tag" />
-                    <field name="tag_ids" string="Party Tags" widget="many2many_tags"/>
+                    <field name="tag_ids" string="Party Tags" widget="many2many_tags" options="{'color_field':'color','no_create':True, 'no_create_edit':True}"/>
 
                     <group>
                         <field name="type_id" placeholder="Eg: Birthday Party"/>
@@ -48,8 +49,12 @@
                         <group><field name="time" /></group>
                     </group>
                     <group>
-                        <group><field name="attendees" /></group>
                         <group><field name="city_id" /></group>
+                        <group><field name="attendees" /></group>
+                    </group>
+
+                    <group>
+                        <group><field name="place_id" attrs="{'invisible':[('city_id', '=', False)]}" string="Party Place"/></group>
                     </group>
 
                     <notebook>
@@ -67,4 +72,23 @@
             </form>
         </field>
     </record>
+
+
+    <!-- Adding search view for the party planner model -->
+    <record id="party_planner_search" model="ir.ui.view">
+        <field name="name">Party Planner Search</field>
+        <field name="model">party.planner</field>
+        <field name="arch" type="xml">
+            <search string="search">
+                <field name="type_id" />
+                <field name="tag_ids" />
+                <field name="city_id" />
+                <field name="place_id" />
+
+                <!-- adding a pre defined search in the filters -->
+                <!-- <filter string="Birthday Party" domain="[('type_id', '=', 'Birthday Party')]"></filter> -->
+            </search>
+        </field>
+    </record>
+
 </odoo>

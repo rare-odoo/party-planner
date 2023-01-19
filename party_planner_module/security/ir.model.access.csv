@@ -3,3 +3,5 @@ access_right_party_planner,access_right_party_planner,model_party_planner,,1,1,1
 access_right_party_planner_types,access_right_party_planner_types,model_party_types,,1,1,1,1
 access_right_party_planner_tags,access_right_party_planner_tags,model_party_tags,,1,1,1,1
 access_right_cities,access_right_cities,model_cities_cities,,1,1,1,1
+access_right_party_places,access_right_party_places,model_party_place,,1,1,1,1
+access_right_party_theme,access_right_party_theme,model_party_theme,,1,1,1,1

@@ -8,6 +8,9 @@ class PartyTags(models.Model):
     name = fields.Char(required=True)
     description = fields.Text()
 
+    # adding color field so that we can set the color of the tags
+    color = fields.Integer()
+
     # defining constraints so that multiple same name cannot be created
     _sql_constraints = [
         (

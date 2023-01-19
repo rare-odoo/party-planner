@@ -12,3 +12,12 @@ class Cities(models.Model):
     
     # ordering the cities name acc to name
     _order = "name"
+
+    # Adding sql contstraints so that no two name can be same
+    _sql_constraints = [
+        (
+            'city_unique_name_check',
+            'unique (name)',
+            'This name already exists! Add unique name :)'
+        )
+    ]

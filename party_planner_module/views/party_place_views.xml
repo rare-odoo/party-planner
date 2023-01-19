@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+
+    <!-- creating action for party place model -->
+    <record id="party_place_action" model="ir.actions.act_window">
+        <field name="name">Party Place</field>
+        <field name="res_model">party.place</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+    <!-- creating tree view for party place -->
+    <record id="party_place_tree_view" model="ir.ui.view">
+        <field name="name">party_place_tree_mode</field>
+        <field name="model">party.place</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" /> 
+                <field name="city_id"/>
+                <field name="description" />
+            </tree>
+        </field>
+    </record>
+
+    <!-- defining form view for the party planner tags -->
+    <record id="party_place_form_view" model="ir.ui.view">
+        <field name="name">party_place_form_mode</field>
+        <field name="model">party.place</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <label for="name" string="Name" />
+                    <h1><field name="name" placeholder="For say : Greenz Restaurant"/></h1>
+
+                    <group>
+                        <field name="city_id" string="City"/>
+                    </group>
+
+                    <notebook>
+                        <page string="Description">
+                            <field name="description" placeholder="Write something about the Party Tag"/>
+                        </page>
+                    </notebook>
+                </sheet>            
+            </form>
+        </field>
+    </record>
+
+
+</odoo>

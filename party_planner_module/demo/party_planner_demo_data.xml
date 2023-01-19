@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+
+    <record id="pp_demo_data" model="party.planner">
+        <field name="name">Isha's Birthday Party</field>
+        <field name="type_id" ref='party_planner_module.party_planner_type_demo_data0'></field>
+        <field name="tag_ids" eval="[(6, 0, [ref('party_planner_module.party_tags_demo_data'), ref('party_planner_module.party_tags_demo_data7'), ref('party_planner_module.party_tags_demo_data9')])]"></field>
+        <field name="city_id" ref='party_planner_module.cities_demo_data7'></field>
+    </record>
+
+    <record id="pp_demo_data1" model="party.planner">
+        <field name="name">Breakfast - Rohan</field>
+        <field name="type_id" ref='party_planner_module.party_planner_type_demo_data3'></field>
+        <field name="tag_ids" eval="[(6, 0, [ref('party_planner_module.party_tags_demo_data9'), ref('party_planner_module.party_tags_demo_data4')])]"></field>
+        <field name="city_id" ref='party_planner_module.cities_demo_data7'></field>
+    </record>
+
+    <record id="pp_demo_data2" model="party.planner">
+        <field name="name">Farewell - Mr Singh</field>
+        <field name="type_id" ref='party_planner_module.party_planner_type_demo_data1'></field>
+        <field name="tag_ids" eval="[(6, 0, [ref('party_planner_module.party_tags_demo_data1'), ref('party_planner_module.party_tags_demo_data3')])]"></field>
+        <field name="city_id" ref='party_planner_module.cities_demo_data171'></field>
+    </record>
+
+    <record id="pp_demo_data3" model="party.planner">
+        <field name="name">Mr Beast - Beast Party</field>
+        <field name="type_id" ref='party_planner_module.party_planner_type_demo_data6'></field>
+        <field name="tag_ids" eval="[(6, 0, [ref('party_planner_module.party_tags_demo_data2'), ref('party_planner_module.party_tags_demo_data7'), ref('party_planner_module.party_tags_demo_data8'), ref('party_planner_module.party_tags_demo_data9')])]"></field>
+        <field name="city_id" ref='party_planner_module.cities_demo_data343'></field>
+    </record>
+
+    <record id="pp_demo_data4" model="party.planner">
+        <field name="name">Bella Weds Edward</field>
+        <field name="type_id" ref='party_planner_module.party_planner_type_demo_data4'></field>
+        <field name="tag_ids" eval="[(6, 0, [ref('party_planner_module.party_tags_demo_data2'), ref('party_planner_module.party_tags_demo_data4'), ref('party_planner_module.party_tags_demo_data5'), ref('party_planner_module.party_tags_demo_data6'), ref('party_planner_module.party_tags_demo_data7')])]"></field>
+        <field name="city_id" ref='party_planner_module.cities_demo_data7'></field>
+    </record>
+
+</odoo>

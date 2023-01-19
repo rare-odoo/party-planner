@@ -5,34 +5,42 @@
     <data>
         <record id="party_tags_demo_data" model="party.tags">
             <field name="name">kids</field>
+            <field name="color">1</field>
         </record>
 
         <record id="party_tags_demo_data1" model="party.tags">
             <field name="name">adults</field>
+            <field name="color">2</field>
         </record>
 
         <record id="party_tags_demo_data2" model="party.tags">
             <field name="name">mix</field>
+            <field name="color">3</field>
         </record>
 
         <record id="party_tags_demo_data3" model="party.tags">
             <field name="name">dry</field>
+            <field name="color">4</field>
         </record>
 
         <record id="party_tags_demo_data4" model="party.tags">
             <field name="name">#breakfast</field>
+            <field name="color">5</field>
         </record>
 
         <record id="party_tags_demo_data5" model="party.tags">
             <field name="name">#lunch</field>
+            <field name="color">6</field>
         </record>
 
         <record id="party_tags_demo_data6" model="party.tags">
             <field name="name">#dinner</field>
+            <field name="color">7</field>
         </record>
 
         <record id="party_tags_demo_data7" model="party.tags">
             <field name="name">#dance</field>
+            <field name="color">9</field>
         </record>
 
         <record id="party_tags_demo_data8" model="party.tags">
@@ -41,6 +49,7 @@
 
         <record id="party_tags_demo_data9" model="party.tags">
             <field name="name">#fun</field>
+            <field name="color">8</field>
         </record>
     </data>
 
