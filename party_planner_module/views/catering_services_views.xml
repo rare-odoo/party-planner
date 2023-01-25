@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+
+    <record id="catering_services_action" model="ir.actions.act_window">
+        <field name="name">Catering Services List</field>
+        <field name="res_model">catering.services</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- creating tree view for the catering service action -->
+    <record id="city_tree_view" model="ir.ui.view">
+        <field name="name">catering_service_tree_view_mode</field>
+        <field name="model">catering.services</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" string="TITLE"/>
+                <field name="date" string="DATE" />
+                <field name="time" string="TIME" />
+                <field name="menu" string="MENU" />
+                <field name="status" string="STATUS" />
+                <field name="payment_type" string="PAYMENT TYPE" />
+                <field name="payment_status" string="PAYMENT STATUS" />
+            </tree>
+        </field>
+    </record>
+
+</odoo>

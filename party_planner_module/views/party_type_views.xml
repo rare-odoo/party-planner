@@ -4,15 +4,15 @@
 
     <!-- defining actions for party types -->
 
-    <record id="party_planner_types_action" model="ir.actions.act_window">
+    <record id="party_type_action" model="ir.actions.act_window">
         <field name="name">Party Type</field>
         <field name="res_model">party.types</field> 
         <field name="view_mode">tree,form</field>
     </record>
 
     <!-- defining tree view for the party types -->
-    <record id="party_planner_types_tree_view" model="ir.ui.view">
-        <field name="name">party_planner_types_tree_mode</field>
+    <record id="part_types_tree_view" model="ir.ui.view">
+        <field name="name">party_types_tree_mode</field>
         <field name="model">party.types</field>
         <field name="arch" type="xml">
             <tree>
@@ -23,8 +23,8 @@
     </record>
 
     <!-- defining form view for the party types -->
-    <record id="party_planner_types_form_view" model="ir.ui.view">
-        <field name="name">party_planner_types_form_mode</field>
+    <record id="party_types_form_view" model="ir.ui.view">
+        <field name="name">party_types_form_mode</field>
         <field name="model">party.types</field>
         <field name="arch" type="xml">
             <form>

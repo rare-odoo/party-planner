@@ -6,7 +6,7 @@ class PartyTheme(models.Model):
     _description = "This model contains party theme details"
 
     name = fields.Char(required=True)
-    type_id = fields.Many2one(comodel_name="party.type")
+    type_id = fields.Many2one(comodel_name="party.types")
     description = fields.Text()
 
 

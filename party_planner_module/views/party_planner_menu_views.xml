@@ -3,17 +3,42 @@
 <odoo>
 
     <menuitem id="party_planner_root_menu" name="Party Planner" action="party_planner_action">
-        <menuitem id="party_planner_first_level_menu1" name="Theme">
-            <menuitem id="party_planner_first_level_menu1_submenu1" action="party_theme_action" name="Party Themes" />
+
+        <menuitem id="party_planner_invoice_menu" name="Invoice" sequence="10">
+
+            <menuitem id="party_planner_invoice_submenu1" name="To Invoice" action="party_planner_action" />
+            <menuitem id="party_planner_invoice_submenu2" name="Invoiced" action="party_planner_action" />
+
         </menuitem>
-        <menuitem id="party_planner_first_level_menu2" name="Configuration">
-            <menuitem id="party_planner_first_level_menu2_submenu1" action="party_planner_types_action" name="Party Types" />
-            <menuitem id="party_planner_first_level_menu2_submenu2" action="party_planner_tags_action" name="Party Tags"/>
-            <menuitem id="party_planner_first_level_menu2_submenu3" action="party_place_action" name="Party Place" />
-            <menuitem id="party_planner_first_level_menu2_submenu4" action="city_views_action" name="City" />
+
+        <menuitem id="party_planner_calendar_menu" name="Calendar" action="party_planner_action" sequence="20"/>
+
+        <menuitem id="party_planner_reporting_menu" name="Reporting" action="party_planner_action" sequence="30"/>
+
+        <menuitem id="party_planner_meeting_menu" name="Meeting" action="party_planner_action" sequence="40"/>
+        
+        <menuitem id="party_planner_config_menu" name="Configuration" sequence="50">
+
+            <menuitem id="party_planner_config_submenu1" name="Settings" action="party_planner_action" sequence="10"/>
+            <menuitem id="party_planner_config_submenu2" name="Managing Teams" action="party_planner_action" sequence="20"/>
+
+            <menuitem id="party_planner_manage_party_submenu" name="Manage Party" sequence="30">
+
+                <menuitem id="party_planner_manage_party_submenu1" name="Party Theme" action="party_theme_action" sequence="10"/>
+                <menuitem id="party_planner_manage_party_submenu2" name="Party Type" action="party_type_action" sequence="20"/>
+                <menuitem id="party_planner_manage_party_submenu3" name="Party Tag" action="party_tag_action" sequence="30"/>
+    
+            </menuitem>
+
+            <menuitem id="party_planner_manage_party_place_submenu" name="Manage Party Place" sequence="40">
+
+                <menuitem id="party_planner_manage_party_place_submenu1" name="City" action="city_view_action" sequence="10"/>
+                <menuitem id="party_planner_manage_party_place_submenu2" name="Party Place" action="party_place_action" sequence="20"/>
+    
+            </menuitem>
+
         </menuitem>
-        <menuitem id="party_planner_first_level_menu3" name="Setting">
-        </menuitem>
+
     </menuitem>
 
 </odoo>

@@ -3,7 +3,7 @@
 
 <odoo>
 
-    <record id="city_views_action" model="ir.actions.act_window">
+    <record id="city_view_action" model="ir.actions.act_window">
         <field name="name">City List</field>
         <field name="res_model">cities.cities</field>
         <field name="view_mode">tree,form</field>

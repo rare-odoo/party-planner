@@ -5,7 +5,7 @@
 <odoo>
 
     <record id="party_planner_action" model="ir.actions.act_window">
-        <field name="name">Parties On The List</field>
+        <field name="name">🎊 Parties On The List 🎊</field>
         <field name="res_model">party.planner</field>
         <field name="view_mode">tree,form</field>
     </record>
@@ -16,7 +16,10 @@
         <field name="name">party_planner_tree_mode</field>
         <field name="model">party.planner</field>
         <field name="arch" type="xml">
-            <tree>
+            <tree decoration-info="state == 'new'" decoration-bf="state == 'new'" 
+                decoration-muted="state == 'done'" decoration-danger="state == 'cancel'" 
+                decoration-success="state == 'validated'" >
+                <field name="state" invisible="1"/>
                 <field name="name" string="Title"/>
                 <field name="type_id" string="Party Type" />
                 <field name="tag_ids" string="Party Tags" widget="many2many_tags" options="{'color_field':'color'}"/>
@@ -34,7 +37,28 @@
         <field name="model">party.planner</field>
         <field name="arch" type="xml">
             <form>
+                <header>
+                   <!-- Adding necessary object buttons -->
+                   <button type="object" name="validate_action_button" string='VALIDATE' attrs="{'invisible': [('state', 'not in', 'new')]}" />
+                   <button type="object" name="send_email_action_button" string="SEND BY EMAIL" attrs="{'invisible': [('state', 'not in', ['validated','progress'])]}" class='btn-primary' />
+                   <button type="object" name="confirm_action_button" string="CONFIRM" attrs="{'invisible': [('state', 'not in', 'validated')]}" />
+                   <button type="object" name="cancel_action_button" string="CANCEL" attrs="{'invisible': [('state', 'not in', ['validated', 'progress'])]}" />
+                   <field name="invoice_generated" invisible='1' />
+                   <button type="object" name="invoice_action_button" string="GENERATE INVOICE" attrs="{'invisible': [ '&amp;', ('state', 'not in', 'done'), ('invoice_generated', '=', False)]}" class="btn-primary" />
+                   <button type="object" name="invoice_share_button" string="SEND INVOICE" attrs="{'invisible': [('state', '!=', 'done')]}" class="btn-primary" />
+                </header>
+                
+                <header>
+                    <field name="state" widget="statusbar"/>
+                </header>
+
                 <sheet>
+
+                    <!-- adding widget - web ribbon -->
+                    <widget name="web_ribbon" title="Done" bg_color="bg-success" attrs="{'invisible':[('state', 'not in', 'done')]}" />
+                    <widget name="web_ribbon" title="Canceled" bg_color="bg-danger" attrs="{'invisible':[('state', 'not in', 'cancel')]}" />
+
+
                     <label for="name" string="Name" />
                     <h1><field name="name" placeholder="For Say : Isha's Birthday Party"/></h1>
                     <label for="name" string="Tag" />
@@ -61,14 +85,27 @@
                         <page string='Description'>
                             <field name='des' placeholder="Write something extra information about the party" />
                         </page>
+
+                        <page string='Foods &amp; Beverages'>
+                            <field name="food" string="Do you like to add foods and beverages?" />
+                            <field name="catering_order_ids" attrs="invisible: ['food', '=', False]" />
+                        </page>
+
                         <page string="Info">
                             <group>
                                 <group><field name="client_id" string="Client Name" /></group>
-                                <group><field name="user_id" string="Employee Name" /></group>
+                                <group><field name="user_id" string="Assigned To" /></group>
                             </group>
                         </page>
                     </notebook>
                 </sheet>
+
+            <!-- Adding chatter section -->
+            <div class="oe_chatter">
+                <field name="message_follower_ids" options="{'post_refresh':True}"/>
+                <field name="message_ids" />
+                <field name="activity_ids" />
+            </div>
             </form>
         </field>
     </record>
@@ -80,6 +117,7 @@
         <field name="model">party.planner</field>
         <field name="arch" type="xml">
             <search string="search">
+                <field name="state" />
                 <field name="type_id" />
                 <field name="tag_ids" />
                 <field name="city_id" />

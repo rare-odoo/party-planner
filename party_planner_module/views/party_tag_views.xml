@@ -3,15 +3,15 @@
 <odoo>
 
     <!-- creating actions for the tag -->
-    <record id="party_planner_tags_action" model="ir.actions.act_window">
+    <record id="party_tag_action" model="ir.actions.act_window">
         <field name="name">Party Tags</field>
         <field name="res_model">party.tags</field>
         <field name="view_mode">tree,form</field>
     </record>
 
     <!-- creating tree view -->
-    <record id="party_planner_tag_tree_view" model="ir.ui.view">
-        <field name="name">party_planner_tag_tree_mode</field>
+    <record id="party_tag_tree_view" model="ir.ui.view">
+        <field name="name">party_tag_tree_mode</field>
         <field name="model">party.tags</field>
         <field name="arch" type="xml">
             <tree>
@@ -22,8 +22,8 @@
     </record>
 
     <!-- defining form view for the party planner tags -->
-    <record id="party_planner_tag_form_view" model="ir.ui.view">
-        <field name="name">party_planner_tag_form_mode</field>
+    <record id="party_tag_form_view" model="ir.ui.view">
+        <field name="name">party_tag_form_mode</field>
         <field name="model">party.tags</field>
         <field name="arch" type="xml">
             <form>
